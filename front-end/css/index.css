@@ -1,0 +1,71 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: antiquewhite;
+    /* font-family: Stardew Valley; */
+    font-size: 100px;
+    text-align: center;
+}
+
+p, li {
+    font-size: 18px;
+    /* font-family: Stardew Valley; */
+}
+
+a {
+    text-decoration: none;    
+}
+
+body {
+    background-image: url("../images/panorama.jpeg");
+    background-size: cover;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Navigation bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+
+    text-align: center;
+
+    background-color:antiquewhite;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.home {
+    padding-top: 100px;
+}
+
+/* Homepage */
+.home {
+    text-align: center;
+}
+
+#cabin {
+    width: 20px;
+    height: 30px;
+    filter: drop-shadow(1px 1px 1px black);
+}
