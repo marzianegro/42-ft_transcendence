@@ -11,7 +11,7 @@ h1 {
 
 p, li {
     font-size: 18px;
-    /* font-family: Stardew Valley; */
+    /* font-family: 'Stardew Valley', sans-serif; */
 }
 
 a {
@@ -67,5 +67,13 @@ footer {
 #cabin {
     width: 20px;
     height: 30px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+
+#invite {
+    max-width:700px;
+    max-height:500px;
+    width: auto;
+    height: auto;
     filter: drop-shadow(1px 1px 1px black);
 }
