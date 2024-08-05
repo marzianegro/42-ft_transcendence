@@ -1,12 +1,14 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Khand, Arial, sans-serif;
 }
 
 h1 {
     color: #BE6024;
-    /* font-family: Stardew Valley; */
-    font-size: 100px;
+    /* color: #4A3068; */
+    font-family: "Stardew Valley", Impact, serif;
+    font-size: 150px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 p, li {
@@ -14,13 +16,30 @@ p, li {
     /* font-family: 'Stardew Valley', sans-serif; */
 }
 
-a {
-    text-decoration: none;    
+/* * * Links * * */
+a:link { /* unvisited */
+    text-decoration: none;
+    color: inherit;
 }
 
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active { /* selected */
+    text-decoration: underline;
+}
+/* * * * * */
+
 body {
-    background-image: url("../images/panorama.jpeg");
-    background-size: cover;
+    /* background-image: url("../images/panorama.jpeg");
+    background-size: cover; */
+    background-color: #3A2427;
 }
 
 footer {
@@ -28,9 +47,13 @@ footer {
     bottom: 0;
     right: 0;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #0A0410;
+    color: #D3AF7A;
     text-align: center;
+}
+
+footer p {
+    font-size: 15px;
 }
 
 /* Navigation bar */
@@ -41,6 +64,7 @@ footer {
     width: 100%;
 
     text-align: center;
+    color: #0A0410;
 
     background-color:#D3AF7A;
 }
@@ -75,3 +99,11 @@ footer {
     border: none;
     cursor: pointer;
 }
+
+.small-text {
+    font-size: 12px;
+    font-style: italic;
+}
+ .small-text a {
+    color: #BE6024;
+ }
