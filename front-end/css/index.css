@@ -3,7 +3,7 @@
 }
 
 h1 {
-    color: antiquewhite;
+    color: #BE6024;
     /* font-family: Stardew Valley; */
     font-size: 100px;
     text-align: center;
@@ -23,11 +23,6 @@ body {
     background-size: cover;
 }
 
-button {
-    background: none;
-    border: none;
-}
-
 footer {
     position: fixed;
     bottom: 0;
@@ -39,7 +34,7 @@ footer {
 }
 
 /* Navigation bar */
-.navbar {
+.nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -47,20 +42,17 @@ footer {
 
     text-align: center;
 
-    background-color:antiquewhite;
+    background-color:#D3AF7A;
 }
 
-.navbar li {
+.nav li {
     display: inline-block;
     padding: 30px;
 }
 
-.home {
-    padding-top: 100px;
-}
-
 /* Homepage */
 .home {
+    padding-top: 100px;
     text-align: center;
 }
 
@@ -76,4 +68,10 @@ footer {
     width: auto;
     height: auto;
     filter: drop-shadow(1px 1px 1px black);
+}
+
+.start-button {
+    background: none;
+    border: none;
+    cursor: pointer;
 }
