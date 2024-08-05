@@ -16,7 +16,7 @@ p, li {
     /* font-family: 'Stardew Valley', sans-serif; */
 }
 
-/* * * Links * * */
+/*** Links ***/
 a:link { /* unvisited */
     text-decoration: none;
     color: inherit;
@@ -34,7 +34,7 @@ a:hover {
 a:active { /* selected */
     text-decoration: underline;
 }
-/* * * * * */
+/******/
 
 body {
     /* background-image: url("../images/panorama.jpeg");
@@ -106,4 +106,47 @@ footer p {
 }
  .small-text a {
     color: #BE6024;
- }
+}
+
+/*** Language selector ***/
+.drop-button {
+    background-color: transparent;
+    font-size: 18px;
+    border: none;
+}
+
+.dropdown-menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* hidden by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BE6024;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* link inside dropdown-menu */
+.dropdown-content a {
+    color: #0A0410;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.dropdown-menu:hover .drop-button {
+    text-decoration: underline;
+}
+/******/
