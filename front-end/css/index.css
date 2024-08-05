@@ -13,10 +13,9 @@ h1 {
 
 p, li {
     font-size: 18px;
-    /* font-family: 'Stardew Valley', sans-serif; */
 }
 
-/*** Links ***/
+/* --- Links --- */
 a:link { /* unvisited */
     text-decoration: none;
     color: inherit;
@@ -34,7 +33,7 @@ a:hover {
 a:active { /* selected */
     text-decoration: underline;
 }
-/******/
+/* ------- */
 
 body {
     /* background-image: url("../images/panorama.jpeg");
@@ -42,6 +41,7 @@ body {
     background-color: #3A2427;
 }
 
+/* --- Footer --- */
 footer {
     position: fixed;
     bottom: 0;
@@ -55,8 +55,9 @@ footer {
 footer p {
     font-size: 15px;
 }
+/* ------- */
 
-/* Navigation bar */
+/* --- Navigation bar --- */
 .nav {
     position: fixed;
     top: 0;
@@ -69,21 +70,20 @@ footer p {
     background-color:#D3AF7A;
 }
 
+.nav ul {
+    padding: 0;
+}
+
 .nav li {
     display: inline-block;
     padding: 30px;
 }
+/* ------- */
 
-/* Homepage */
+/* --- Homepage --- */
 .home {
     padding-top: 100px;
     text-align: center;
-}
-
-#cabin {
-    width: 20px;
-    height: 30px;
-    filter: drop-shadow(1px 1px 1px black);
 }
 
 #invite {
@@ -100,6 +100,8 @@ footer p {
     cursor: pointer;
 }
 
+/* ------- */
+
 .small-text {
     font-size: 12px;
     font-style: italic;
@@ -108,7 +110,7 @@ footer p {
     color: #BE6024;
 }
 
-/*** Language selector ***/
+/* --- Language Menu --- */
 .drop-button {
     background-color: transparent;
     font-size: 18px;
@@ -120,9 +122,8 @@ footer p {
     display: inline-block;
 }
 
-/* hidden by default */
 .dropdown-content {
-    display: none;
+    display: none; /* hidden by default */
     position: absolute;
     background-color: #BE6024;
     min-width: 100%;
@@ -131,7 +132,6 @@ footer p {
     z-index: 1;
 }
 
-/* link inside dropdown-menu */
 .dropdown-content a {
     color: #0A0410;
     padding: 12px 16px;
@@ -150,4 +150,4 @@ footer p {
 .dropdown-menu:hover .drop-button {
     text-decoration: underline;
 }
-/******/
+/* ------- */
