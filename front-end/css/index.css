@@ -1,11 +1,25 @@
+@font-face {
+    font-family: 'Stardew Valley';
+    src: url(../css/fonts/stardew-valley-speech.ttf) format ('truetype');
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url(../css/fonts/Khand/Khand-Bold.ttf) format ('truetype'),
+            url(../css/fonts/Khand/Khand-Light.ttf) format ('truetype'),
+            url(../css/fonts/Khand/Khand-Medium.ttf) format ('truetype'),
+            url(../css/fonts/Khand/Khand-Regular.ttf) format ('truetype'),
+            url(../css/fonts/Khand/Khand-SemiBold.ttf) format ('truetype');
+}
+
 * {
-    font-family: Khand, Arial, sans-serif;
+    font-family: 'Khand', Arial, sans-serif;
 }
 
 h1 {
     color: #BE6024;
     /* color: #4A3068; */
-    font-family: "Stardew Valley", Impact, serif;
+    font-family: 'Stardew Valley', Impact, serif;
     font-size: 150px;
     text-align: center;
     margin-bottom: 20px;
@@ -36,8 +50,6 @@ a:active { /* selected */
 /* ------- */
 
 body {
-    /* background-image: url("../images/panorama.jpeg");
-    background-size: cover; */
     background-color: #3A2427;
 }
 
@@ -63,10 +75,8 @@ footer p {
     top: 0;
     right: 0;
     width: 100%;
-
     text-align: center;
     color: #0A0410;
-
     background-color:#D3AF7A;
 }
 
@@ -87,8 +97,8 @@ footer p {
 }
 
 #invite {
-    max-width:700px;
-    max-height:500px;
+    max-width: 700px;
+    max-height: 500px;
     width: auto;
     height: auto;
     filter: drop-shadow(1px 1px 1px black);
